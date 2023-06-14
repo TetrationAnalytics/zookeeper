@@ -137,7 +137,7 @@
               <descriptors>
                 <descriptor>${project.basedir}/src/main/assembly/bin-package.xml</descriptor>
               </descriptors>
-              <finalName>apache-zookeeper-${project.version}-bin</finalName>
+              <finalName>apache-zookeeper-3.7.2-bin</finalName>
               <appendAssemblyId>false</appendAssemblyId>
               <tarLongFileMode>posix</tarLongFileMode>
             </configuration>
@@ -152,7 +152,7 @@
               <descriptors>
                 <descriptor>${project.basedir}/src/main/assembly/lib-package.xml</descriptor>
               </descriptors>
-              <finalName>apache-zookeeper-${project.version}-lib</finalName>
+              <finalName>apache-zookeeper-3.7.2-lib</finalName>
               <appendAssemblyId>false</appendAssemblyId>
               <tarLongFileMode>posix</tarLongFileMode>
               <skipAssembly>${skip.lib.artifact}</skipAssembly>
